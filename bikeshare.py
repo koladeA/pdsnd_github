@@ -21,18 +21,18 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
     while True:
-        city = input("\nEnter a city name whose bikeshare data you would like to explore from these available cities: \nChicago \nNew York City \nWashington \n").lower()
+        city = input("\nPlease select a city from: \nChicago \nNew York City \nWashington \n").lower()
         if city not in ('chicago', 'new york city', 'washington'):
-            print('Nice try, but You may need to select from the list of the cities above to proceed: ')
+            print('Oops!, city not found. Select from the listed cities: ')
             continue
         else:
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = input("\nIf there is a month you are looking at checking out, what month is it? \nJanuary,\nFebruary,\nMarch,\nApril,\nMay,\nJune,\nor all if you have no preference: ").lower()
+        month = input("\nSelect a month from the lsit to explore: \nJanuary,\nFebruary,\nMarch,\nApril,\nMay,\nJune,\nor all if you have no preference: ").lower()
         if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
-            print ("That surely doesn't look like a given month name. Can you enter a valid month name please? or all if you have no preference: ")
+            print ("Is that a valid month? I don't think so. Enter a valid month from the list please? or all if you have no preference: ")
             continue
         else:
             break
@@ -40,9 +40,9 @@ def get_filters():
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input("\nYou probably have a particular day in mind. please enter the day as: \nMonday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, or just simply type 'all' if you are unsure: ").lower()
+        day = input("\n Are you considering a day? Enter as: \nMonday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, or just simply type 'all' if you are unsure: ").lower()
         if day not in ('all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'):
-            print("Please enter a valid day or 'all' for no preference: ")
+            print("Oops! enter a valid day of week or 'all' for no preference: ")
             continue
         else:
             break
