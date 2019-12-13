@@ -9,7 +9,9 @@ This project explores some U.S bikeshare data. It uses real data from a bikeshar
 It analysis the data to reveal information such as which stations are most frequent by riders, the time most riders start and stop riding, the demographics, and what period of the year or day of the week.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The Udacity course covering this topic was a great resource in resolving some of the likely errors, as I had to revisit some along the line.
