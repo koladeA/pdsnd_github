@@ -7,7 +7,7 @@ Explore_US_Bikeshare_Data
 ### Description
 This project explores some U.S bikeshare data. It uses real data from a bikeshare company called Motivate for Washington, New York City and Chicago.
 It analysis the data to reveal information such as which stations are most frequent by riders, the time most riders start and stop riding, the demographics, and what period of the year or day of the week.
-
+It is really exciting to explore this data and it is also very useful to make some bike sharing decisions based on some facts revealed by the analysis.
 ### Files used
 chicago.csv
 new_york_city.csv
