@@ -30,9 +30,9 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = input("\nIf there is a month you are looking at checking out, what month is it? \nJanuary,\nFebruary,\nMarch,\nApril,\nMay,\nJune,\nor all if you have no preference: ").lower()
+        month = input("\nSelect a month from the lsit to explore: \nJanuary,\nFebruary,\nMarch,\nApril,\nMay,\nJune,\nor all if you have no preference: ").lower()
         if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
-            print ("That surely doesn't look like a given month name. Can you enter a valid month name please? or all if you have no preference: ")
+            print ("Is that a valid month? I don't think so. Enter a valid month from the list please? or all if you have no preference: ")
             continue
         else:
             break
